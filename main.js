@@ -1,6 +1,6 @@
 window.onload = function () {
-    let elem = document.getElementById("el");
-    let elem1 = document.getElementById("el1");
+    const elem = document.getElementById("el");
+    const elem1 = document.getElementById("el1");
     elem.addEventListener('click', function () {
         document.body.style.backgroundColor = 'LightPink';
     });
